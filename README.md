@@ -1125,7 +1125,7 @@ This is how to get aggregated data about the portfolio :
 account_update = trading_api.get_update(
     request_list=[
         UpdateRequest(
-            option=UpdateOption.TOTALPORTFOLIO,
+            option=UpdateOption.TOTAL_PORTFOLIO,
             last_updated=0,
         ),
     ],
